@@ -1,7 +1,5 @@
 import validator from './validator.js';
 
-//console.log(validator);
-
 let enviar = document.getElementById("enviar"), // Contiene todos los input, id de form
     cardNumber = document.getElementById("cardNumber"); // Input de cardNumber
 //arrayUnmasked = []; // Array vacío que irá guardando los números de cardNumber
@@ -41,12 +39,4 @@ cardNumber.addEventListener('keyup', (x)  => {
   cardNumber.value = onlyNumber.replace(/\s/g, '').replace(/\D/g, '');
 })
 
-/*
-cardNumber.addEventListener("keyup", function hiddenNumber() {
-    let cardNumberHidd = cardNumber.value;
-    let maskifyResult = validator.maskify(cardNumberHidd);
-
-    cardNumber.value = maskifyResult;
-})
-*/
 //numero tarjeta válido 4289746659335873
