@@ -65,5 +65,5 @@ Se reajusta el diseño considerando el tiempo para la implementación de la pág
 
 ## 3.Prototipo Final
 
-
+Para visitar la página pinche [aquí](src/index.html)
 
