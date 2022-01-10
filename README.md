@@ -21,12 +21,12 @@ La interfaz se enfocó en que fuese una plataforma directa y rápida al momento 
 
 ### 2.1 Referencias
 
-![Página de inicio de HBO max](image/referente/pagina-inicio-hbo.png)
-![Crear cuenta HBO max](image/referente/crear-cuenta-hbo.png)
-![Formulario](image/referente/ingresa-tarjeta-credito-hbo.jpeg)
-![Campos vacíos](image/referente/input-vacios-hbo.jpeg)
-![Formulario Netflix](image/referente/suscripcion-netflix.jpeg)
-![Página de inicio de HBO max](image/referente/ejemplo-patron.jpeg)
+![Página de inicio de HBO max](images-readme/referente/pagina-inicio-hbo.png)
+![Crear cuenta HBO max](images-readme/referente/crear-cuenta-hbo.png)
+![Formulario](images-readme/referente/ingresa-tarjeta-credito-hbo.jpeg)
+![Campos vacíos](images-readme/referente/input-vacios-hbo.jpeg)
+![Formulario Netflix](images-readme/referente/suscripcion-netflix.jpeg)
+![Página de inicio de HBO max](images-readme/referente/ejemplo-patron.jpeg)
 
 ### 2.2 Prototipo de baja fidelidad
 ### 2.3 Prototipo de alta fidelidad
