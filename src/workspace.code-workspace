@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "SCL019-card-validation",
+			"path": ".."
+		},
+		{
+			"name": "images",
+			"path": "../../../../Desktop/SCL019-card-validation 2 20.00.32/images"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "SCL019-card-validation"
+	}
+}

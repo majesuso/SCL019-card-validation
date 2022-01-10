@@ -2,7 +2,6 @@ import validator from './validator.js';
 
 let enviar = document.getElementById("enviar"), // Contiene todos los input, id de form
     cardNumber = document.getElementById("cardNumber"); // Input de cardNumber
-//arrayUnmasked = []; // Array vacío que irá guardando los números de cardNumber
 
 enviar.addEventListener("submit", function isValid(e) { // escucha eventos en todos los input 
     e.preventDefault();
