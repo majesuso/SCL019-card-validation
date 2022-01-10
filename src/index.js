@@ -38,5 +38,3 @@ cardNumber.addEventListener('keyup', (x)  => {
 	let onlyNumber = x.target.value;
   cardNumber.value = onlyNumber.replace(/\s/g, '').replace(/\D/g, '');
 })
-
-//numero tarjeta válido 4289746659335873
