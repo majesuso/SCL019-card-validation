@@ -16,7 +16,7 @@ enviar.addEventListener("submit", function isValid(e) { // escucha eventos en to
         document.getElementById("noneName").innerHTML = "Ingrese su nombre";
     }
     if (card === "") { // en caso de que no se ingrese un número de tarjeta
-        validationResult = false;
+        card = false;
         document.getElementById("invalidCard").innerHTML = "Ingrese un número de tarjeta"; // *No funciona este mensaje
     }
 
