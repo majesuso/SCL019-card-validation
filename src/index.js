@@ -8,9 +8,7 @@ enviar.addEventListener("submit", function isValid(e) { // escucha eventos en to
 
     let name = document.getElementById("user").value, // nombre usuario
         card = cardNumber.value, //arrayUnmasked.join(""), // número de tarjeta 
-        overlay = document.getElementById("overlay"), // modal
-        validationResult = validator.isValid(card), // trae la función isValid
-        maskNumber = validator.maskify(card); // trae la función maskify
+        overlay = document.getElementById("overlay"); // modal
 
     // condicionales para mensajes de válida o inválida
     if (name === "") { // en caso de que no se ingrese un nombre
@@ -21,6 +19,10 @@ enviar.addEventListener("submit", function isValid(e) { // escucha eventos en to
         validationResult = false;
         document.getElementById("invalidCard").innerHTML = "Ingrese un número de tarjeta"; // *No funciona este mensaje
     }
+
+    let validationResult = validator.isValid(card), // trae la función isValid
+        maskNumber = validator.maskify(card); // trae la función maskify
+
     if (validationResult && name) { // en caso de que se ingrese nombre y número de tarjeta válida
         overlay.classList.add("active"); // Activa el modal
         document.getElementById("addUser").innerHTML = "¡Felicidades " + name + "!"; // Titulo modal
@@ -28,12 +30,12 @@ enviar.addEventListener("submit", function isValid(e) { // escucha eventos en to
             "Su número de tarjeta " + maskNumber + " es válida.<br>" +
             "Ahora podrás disfrutar de ver material inédito de tus artistas favoritos.<br>" + "Gracias por suscribirte <3" // texto tarjeta válida 
     }
-    if (validationResult!==true) { // en caso de que el número de tarjeta es
+    if (validationResult !== true) { // en caso de que el número de tarjeta es
         document.getElementById("invalidCard").innerHTML = "Su número de tarjeta " + maskNumber + " es inválida";
     }
 })
 
-cardNumber.addEventListener('keyup', (x)  => {
-	let onlyNumber = x.target.value;
-  cardNumber.value = onlyNumber.replace(/\s/g, '').replace(/\D/g, '');
+cardNumber.addEventListener('keyup', (x) => {
+    let onlyNumber = x.target.value;
+    cardNumber.value = onlyNumber.replace(/\s/g, '').replace(/\D/g, '');
 })

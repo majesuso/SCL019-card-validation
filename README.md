@@ -20,6 +20,14 @@ Este proyecto está pensado para los usuarios puedan acceder a material inédito
 La interfaz se enfocó en que fuese una plataforma directa y rápida al momento en que el usuario accede a la plataforma y este pueda suscribirse. Se escogió una paleta de 4 colores para dar carácter y que esta sea reconocible.
 
 ### 2.1 Referencias
+
+![Página de inicio de HBO max](image/referente/pagina-inicio-hbo.png)
+![Crear cuenta HBO max](image/referente/crear-cuenta-hbo.png)
+![Formulario](image/referente/ingresa-tarjeta-credito-hbo.jpeg)
+![Campos vacíos](image/referente/input-vacios-hbo.jpeg)
+![Formulario Netflix](image/referente/suscripcion-netflix.jpeg)
+![Página de inicio de HBO max](image/referente/ejemplo-patron.jpeg)
+
 ### 2.2 Prototipo de baja fidelidad
 ### 2.3 Prototipo de alta fidelidad
 
