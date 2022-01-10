@@ -26,7 +26,7 @@ La interfaz se enfocó en que fuese una plataforma directa y rápida al momento 
 ![Formulario](images-readme/referente/ingresa-tarjeta-credito-hbo.png)
 ![Campos vacíos](images-readme/referente/input-vacios-hbo.png)
 ![Formulario Netflix](images-readme/referente/suscripcion-netflix.png)
-![Página de inicio de HBO max](images-readme/referente/ejemplo-patron.png)
+![Formulario Patreon](images-readme/referente/ejemplo-patreon.png)
 
 ### 2.2 Prototipo de baja fidelidad
 ### 2.3 Prototipo de alta fidelidad
