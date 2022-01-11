@@ -65,5 +65,5 @@ Se reajusta el diseño considerando el tiempo para la implementación de la pág
 
 ## 3.Prototipo Final
 
-Para visitar la página pinche [aquí](https://github.io/majesusoSCL019-card-validation/src/index.html) y probarla con este número de tarjeta válido 4552664041090033.
+Para visitar la página pinche [aquí](src/index.html) y probarla con este número de tarjeta válido 4552664041090033.
 
