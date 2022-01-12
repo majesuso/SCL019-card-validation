@@ -29,15 +29,12 @@ const validator = {
   maskify: function (card) {
 
       let arrayCardNumber = card.split(""),
-          //arrayUnmasked = [], // Array vacío que irá guardando los números de cardNumber
           maskifySum = ""; // sumar # para reemplazar números
 
       for (let i = 0; i < arrayCardNumber.length; i++) {
           if (i < arrayCardNumber.length - 4) {
-              //arrayUnmasked.push(arrayCardNumber[i]);
               maskifySum += "#";
           } else {
-              //arrayUnmasked.push(arrayCardNumber[i]);
               maskifySum += arrayCardNumber[i];
           }
       }
