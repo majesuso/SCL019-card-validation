@@ -44,7 +44,7 @@ Para el diseño de interfaz se toman de referencia la disposición de los elemen
 
 ### 2.3 Prototipo de alta fidelidad
 
-#### Primer prototipo
+#### PRIMER
 
 Se lleva a cabo el primer prototipo de alta fidelidad considerando una dos cambios de página para nuestra plataforma, primero la de inicio y luego la del formulario. Se define la forma en que se mostrarán los datos inváidos y váidos.
 
