@@ -44,7 +44,7 @@ Para el diseño de interfaz se toman de referencia la disposición de los elemen
 
 ### 2.3 Prototipo de alta fidelidad
 
-#### PRIMER PROTOTIPO
+#### Primer prototipo
 
 Se lleva a cabo el primer prototipo de alta fidelidad considerando una dos cambios de página para nuestra plataforma, primero la de inicio y luego la del formulario. Se define la forma en que se mostrarán los datos inváidos y váidos.
 
@@ -54,7 +54,7 @@ Se lleva a cabo el primer prototipo de alta fidelidad considerando una dos cambi
 ![Datos ingresados](images-readme/prototipo-alta-fidelidad/prototipo1/datos-ingresados.png)
 ![Suscripción exitosa](images-readme/prototipo-alta-fidelidad/prototipo1/suscripcion-realizada.png)
 
-### Segundo prototipo
+### Segundo Prototipo
 
 Se reajusta el diseño considerando el tiempo para la implementación de la página, por lo que se decide unir la página de inicio con la del formulario y así poder implentar la funcionalidad del algoritmo para la validación de la tarjeta.
 
