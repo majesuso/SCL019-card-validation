@@ -3,7 +3,7 @@
 ## Índice
 
 * [1. Experiencia de Usuario](#1-experiencia-de-usuario)
-* [2. Resumen del proyecto](#2-interfaz-de-usuario)
+* [2. Interfaz de Usuario](#2-interfaz-de-usuario)
   * [2.1 Referencias](#2.1-referencias)
   * [2.2 Prototipo de baja fidelidad](#2.2-prototipo-de-baja-fidelidad)
   * [2.3 Prototipo de alta fidelidad](#2.3-prototipo-de-alta-fidelidad)
