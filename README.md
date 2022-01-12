@@ -1,4 +1,4 @@
-# Tarjeta de crédito válida
+# TARJETA DE CRÉDITO VÁLIDA
 
 ## Índice
 
