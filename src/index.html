@@ -1,63 +1,75 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Tarjeta de crédito válida</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <title>Tarjeta de crédito válida</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
+  <body>
+    <header class="header">
+      <!-- Logo y título-->
+      <div id="logo"><img src="../images/header.png" width="120" /></div>
+      <h1>¡Hola!</h1>
+    </header>
+    <main class="mainHome">
+      <!-- Párrafo de por qué suscribirte -->
+      <section class="suscribe">
+        <div class="introduction">
+          <p>
+            Suscríbete y accede a material exclusivo de tus artistas y creadores
+            de contenido favorito &lt;3.
+          </p>
+        </div>
 
-<body>
-  <header>
-    <!-- Logo y título-->
-    <div id="logo"><img src="../images/header.png" width="120"></div>
-    <h1>¡Hola!</h1>
-  </header>
-  <main>
-    <!-- Párrafo de por qué suscribirte -->
-    <div class="introduction">
-      <p>Suscríbete y accede a material exclusivo de tus artistas y creadores de contenido favorito &lt;3. </p>
-    </div>
-    <!-- Párrafo tipo de contenido de la página -->
-    <div class="content">
-      <p>Podcasters</p>
-      <p>Creadores de video</p>
-      <p>Músicos</p>
-      <p>Animadores</p>
-      <p>Artistas Visuales</p>
-      <p>Artesanos</p>
-      <p>Comunidades</p>
-      <p>Escritores y periodistas</p>
-      <p>Creadores de juegos</p>
-      <p>Tutoriales y educación</p>
-      <p>Bloggers</p>
-      <p>Creadores de todo tipo</p>
-    </div>
-    <form id="enviar" action="">
-      <!-- Input para ingresar nombre -->
-      <input type="text" name="user" id="user" placeholder="Nombre"><br>
-      <p id="noneName"></p>
-      <!-- Input para ingresar número de tarjeta -->
-      <input type="text" name="cardNumber" id="cardNumber" placeholder="Número de tarjeta de crédito" maxlength="16"><br> 
-      <p id="invalidCard"></p>
-      <!-- Botón para enviar información-->
-      <button type="submit" id="send">SUSCRIBIRTE</button>
-    </form>
-    <!-- Modal, primer div para el fondo de atrás del modal-->
-    <div class="overlay" id="overlay">
-      <div class="popup" id="popup">
-        <h2 id="addUser"></h2>
-        
-        <p id="maskNumber"></p>
-        
-        <form>
-          <input type="submit" class="acceder" value="ACCEDER">
+        <form id="enviar" action="">
+          <!-- Input para ingresar nombre -->
+          <input type="text" name="user" id="user" placeholder="Nombre" /><br />
+          <p id="noneName"></p>
+          <!-- Input para ingresar número de tarjeta -->
+          <input
+            type="text"
+            name="cardNumber"
+            id="cardNumber"
+            placeholder="Número de tarjeta de crédito"
+            maxlength="16"
+          /><br />
+          <p id="invalidCard"></p>
+          <!-- Botón para enviar información-->
+          <button type="submit" id="send">SUSCRIBIRTE</button>
         </form>
-      </div>
-    </div>
-  </main>
-  <footer></footer>
-  <script src="index.js" type="module"></script>
-</body>
+      </section>
 
+      <!-- Párrafo tipo de contenido de la página -->
+      <section class="content">
+        <p class="contentType">Podcasters</p>
+        <p class="contentType">Creadores de video</p>
+        <p class="contentType">Músicos</p>
+        <p class="contentType">Animadores</p>
+        <p class="contentType">Artistas Visuales</p>
+        <p class="contentType">Artesanos</p>
+        <p class="contentType">Comunidades</p>
+        <p class="contentType">Escritores y periodistas</p>
+        <p class="contentType">Creadores de juegos</p>
+        <p class="contentType">Tutoriales y educación</p>
+        <p class="contentType">Bloggers</p>
+        <p class="contentType">Creadores de todo tipo</p>
+      </section>
+
+      <!-- Modal, primer div para el fondo de atrás del modal-->
+      <div class="overlay" id="overlay">
+        <div class="popup" id="popup">
+          <h2 id="addUser"></h2>
+
+          <p id="maskNumber"></p>
+
+          <form>
+            <input type="submit" class="acceder" value="ACCEDER" />
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+    <script src="index.js" type="module"></script>
+  </body>
 </html>

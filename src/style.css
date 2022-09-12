@@ -1,124 +1,147 @@
-body{font-family: Roboto;
-    background-image: url(../images/black\ solid\ color.jpeg); 
-    background-size: contain;}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+}
+.header {
+  position: relative;
+  padding-top: 12%;
+  padding-left: 5%;
+}
 
-#logo{margin: 44px 76px;}
+.mainHome {
+  top: 0;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.suscribe {
+  padding-top: 25%;
+  padding-left: 5%;
+}
+
+/* #logo {
+} */
 
 /* texto título principal */
-h1{
-    margin: 0px 76px;
-    font-size: 48px;
-    font-weight: 900;
-    color: #BFB3ED;    
+h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #bfb3ed;
 }
-/* texto introducción */
-.introduction{
-    margin: 40px 76px;
-    width: 500px;
 
-    font-size: 20px;
-    font-weight: 400;
-    color: #BFB3ED;   
+/* texto introducción */
+.introduction {
+  width: 500px;
+
+  font-size: 20px;
+  font-weight: 400;
+  color: #bfb3ed;
 }
 /* texto tipo de contenido de la página */
-.content{
-        position: absolute;
-    top: 0px;
-    right: 0px;
-    width: 256px;
-    height: 515px;
-    padding: 104px 64px 84px 136px;
-    border-radius: 32px 0px 0px 32px;
-    background-color: #BFB3ED;
-    
-    font-size: 24px;
-    font-weight: 500;
-    text-align: right;
-    line-height: 16px; /* interlineado */
-    color: black;
+.content {
+  width: 25%;
+  height: auto;
+  padding: 10% 8% 8% 8%;
+  border-radius: 32px 0px 0px 32px;
+  background-color: #bfb3ed;
 }
 
-input[type=text]{
-    width: 300px;
-    margin: 12px 76px;
-    padding: 12px 200px 12px 12px;
-    
-    font-size: 16px;
-    color: white;
-    background: black;
-    border-color: #BFB3ED;
+.contentType {
+  font-size: 24px;
+  font-weight: 500;
+  text-align: right;
+  line-height: normal; /* interlineado */
+  color: black;
 }
+
+input[type="text"] {
+  width: 300px;
+  padding: 12px 200px 12px 12px;
+
+  font-size: 16px;
+  color: white;
+  background: black;
+  border-color: #bfb3ed;
+}
+
 /* mensaje de ingrese su nombre */
 #noneName {
-    font-size: 18px;
-    font-weight: 400;
-    color: red;
-    margin: 0px 76px;
+  font-size: 18px;
+  font-weight: 400;
+  color: red;
 }
+
 /* mensaje de nº de tarjeta inválida */
 #invalidCard {
-    font-size: 18px;
-    font-weight: 400;
-    color: red;
-    margin: 0px 76px;
+  font-size: 18px;
+  font-weight: 400;
+  color: red;
 }
+
 /* botón "suscribirse" */
-button{
-    margin: 24px 76px;
-    padding: 16px 24px;
-    font-size: 18px;
-    color: white;
-    background-color: #9186D6;
-    border-radius: 32px;
-    border: none;
+button {
+  padding: 16px 24px;
+  font-size: 18px;
+  color: white;
+  background-color: #9186d6;
+  border-radius: 32px;
+  border: none;
 }
+
 /* cambio de fondo cuando aparece modal */
 .overlay {
-    background: rgba(0, 0, 0, .8);
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    visibility: hidden; /* ocultar modal */
+  background: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  visibility: hidden; /* ocultar modal */
 }
-.overlay.active{
-    visibility: visible;
+
+.overlay.active {
+  visibility: visible;
 }
+
 /* ventana modal */
 .popup {
-    background: #BFB3ED;
-    box-shadow: 0px 0px 10px 0px #9186D6;
-    border-radius: 32px;
-    padding: 24px;
-    text-align: center;
-    width: 580px;
-    height: 320px;
+  background: #bfb3ed;
+  box-shadow: 0px 0px 10px 0px #9186d6;
+  border-radius: 32px;
+  padding: 24px;
+  text-align: center;
+  width: 580px;
+  height: 320px;
 }
 /* título modal */
-.popup h2{
-    font-size: 48px;
-    font-weight: 900;
-    line-height: 36px;
+.popup h2 {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 36px;
 }
 /* texto suscrito */
-.popup p{
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 24px;
+.popup p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
 }
 /* botón acceder */
-.popup .acceder{
-    font-size: 18px;
-    padding: 16px 24px;
-    border-radius: 32px;
-    background-color: black;
-    color: white;
-    border: none;
+.popup .acceder {
+  font-size: 18px;
+  padding: 16px 24px;
+  border-radius: 32px;
+  background-color: black;
+  color: white;
+  border: none;
 }
-.popup .acceder:hover{
-    background: rgba(0, 0, 0, .8);
+.popup .acceder:hover {
+  background: rgba(0, 0, 0, 0.8);
 }
